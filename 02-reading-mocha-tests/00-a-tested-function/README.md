@@ -1,6 +1,6 @@
 This exercise will give you a chance to create and test a function.
 
-We'll be working with a function that returns a valid HTML link tag, given the link's text and address.
+We'll  working with a function that returns a valid HTML link tag, given the link's text and address.
 
 Review the [test specification](https://github.com/Bloc/frontend-javascript-exercises/blob/master/02-reading-mocha-tests/00-a-tested-function/spec.js) to figure out what the name of the function should be and how the arguments should be ordered.
 
