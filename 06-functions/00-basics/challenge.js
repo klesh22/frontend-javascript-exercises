@@ -1,7 +1,7 @@
-module.exports.helloWorld = function() {
+var helloWorld = function() {
   return "Hello World";
 };
 
-module.exports.multiply = function(x, y) {
+var multiply = function(x, y) {
   return x*y;
 };
