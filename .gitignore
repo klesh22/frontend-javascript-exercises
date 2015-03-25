@@ -1,2 +1,7 @@
 node_modules
+<<<<<<< HEAD
 .DS_Store
+=======
+bower_components
+*.swp
+>>>>>>> 5a4e90f48b5c5dab82a357f788831386ce83cc5d
