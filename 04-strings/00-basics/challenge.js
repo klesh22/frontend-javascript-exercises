@@ -1,4 +1,4 @@
-var formLetter = function(firstName, senderName, message) {
+module.exports.formLetter = function(firstName, senderName, message) {
 return formLetter="Hello John,\n\nI think I have this figured out now.\n\nSincerely, Karen"
 };
 
@@ -16,16 +16,16 @@ var subStringA;
 var text = "John is my mentor.";
 var searchString = "my ";
 module.exports.findFirstMatch = function(text, searchString) {
-  return text.IndexOf(searchTerm);
+  return text.IndexOf(searchString);
 };
-findFirstMatch(text,searchString)
+
 
 var text = "John is my mentor.";
 var searchString = "my";
 module.exports.findLastMatch = function(text, searchString) {
- return text.lastIndexOf(searchTerm);
+ return text.lastIndexOf(searchString);
 };
-findLastMatch(text,searchString)
+
 
 var text = "roses are red violets are blue";
 var searchString = "violets";
@@ -33,5 +33,3 @@ module.exports.substringBetweenMatches = function(text, searchString) {
   return text.substring(14,21);
 };
 
-
-};
