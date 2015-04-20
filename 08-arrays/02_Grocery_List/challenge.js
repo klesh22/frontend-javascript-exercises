@@ -1,5 +1,14 @@
 
+- Create a `reverseSortedList` function. This function should:
+	- take one argument, an array
+	- it should return the array sorted but in reverse
 
+	For example:
+	
+	```javascript
+	reverseSortedList([2,4,1,5,3]); // returns [5,4,3,2,1]
+	reverseSortedList(["b", "d", "q", "a"]); // returns ["q", "d", "b", "a"]
+	```
 module.exports.reverseSortedList = undefined;
 
 
@@ -27,13 +36,3 @@ if (addItem === ["orange","banana"]) {
 
 	```
 
-- Create a `reverseSortedList` function. This function should:
-	- take one argument, an array
-	- it should return the array sorted but in reverse
-
-	For example:
-	
-	```javascript
-	reverseSortedList([2,4,1,5,3]); // returns [5,4,3,2,1]
-	reverseSortedList(["b", "d", "q", "a"]); // returns ["q", "d", "b", "a"]
-	```
