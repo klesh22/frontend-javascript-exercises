@@ -33,9 +33,7 @@ module.exports.createCourse = {
     addProperty({}, 'firstName', 'Jim') // should return { firstName: 'Jim' }
     addProperty({firstName: 'Rob'}, 'firstName', 'Jim') // should return {firstName: 'Rob'}
     ```
-module.exports.addProperty = {];
-addProperty.newProp= 'Boston land';
-addProperty.newValue= 'Chicago land';
+module.exports.addProperty = {object: "car", newProp: "color", newValue: "year"};
 
 
 
@@ -54,9 +52,11 @@ addProperty.newValue= 'Chicago land';
     ```
 
 module.exports.formLetter = {
-    recipient: "karen"\n\n,
-    sender: "john:\n\n,
-    msg: 'do your homework!\n\nSincerely,\nJohn"
+   { recipient: "Karen",
+    sender: "John",
+    msg: "Do your homework!"} {
+        console.log ("Hello" + recipient,\n\n + "msg"\n\n + "Sincerely,"\n + sender)
+    }
 };
 
 
@@ -82,4 +82,6 @@ module.exports.formLetter = {
     canIGet('MacBook Air', 1000) // returns true
     ```
     
-module.exports.canIGet = undefined;
+module.exports.canIGet = function (item,money) {
+... "MacBook Air": 999, "MacBook Pro": 1299, "Mac Pro": 2499, "Apple Sticker"; 1};
+... {console.log ("true" 
