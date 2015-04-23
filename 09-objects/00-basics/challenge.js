@@ -33,19 +33,53 @@ module.exports.createCourse = {
     addProperty({}, 'firstName', 'Jim') // should return { firstName: 'Jim' }
     addProperty({firstName: 'Rob'}, 'firstName', 'Jim') // should return {firstName: 'Rob'}
     ```
-module.exports.addProperty = {
-... object: 'sign',
-... newProp: 'lakeland',
-... newValue: '5 million'
-... };
+module.exports.addProperty = {];
+addProperty.newProp= 'Boston land';
+addProperty.newValue= 'Chicago land';
 
 
 
 
 
+- Complete the `formLetter` function. This function should:
+    - take one argument, a letter, which has three properties `recipient`, `sender`, and `msg`
+    - combine the three properties into a single string with an additional greeting and closing
+    - insert additional new lines between the greeting, message, and signature.
+
+    For example:
+    
+    ```javascript
+    formLetter({ recipient: "James", sender: "Richard", msg: "Things are well." }) 
+    // should return "Hello James,\n\nThings are well.\n\nSincerely,\nRichard"
+    ```
+
+module.exports.formLetter = {
+    recipient: "karen"\n\n,
+    sender: "john:\n\n,
+    msg: 'do your homework!\n\nSincerely,\nJohn"
+};
 
 
 
-module.exports.formLetter = undefined;
 
+- Complete the `canIGet` function. This function should:
+    - Take two arguments:
+        - `item`: represents what the user wants to buy
+        - `money`: represents how many dollars a user has
+    - return `true` if a user can afford a given item according to the price chart below, and false otherwise:
+        - 'MacBook Air' - $999
+        - MacBook Pro' - $1299
+        - 'Mac Pro' - $2499
+        - 'Apple Sticker' - $1
+    - Return `false` if the `item` is not in the above list of Apple products
+
+    > Do this with 0 'if' conditions! (Hint: Place the above price table in an object).
+    
+    For example:
+    
+    ```javascript
+    canIGet('MacBook Air', 100) // returns false
+    canIGet('MacBook Air', 1000) // returns true
+    ```
+    
 module.exports.canIGet = undefined;
