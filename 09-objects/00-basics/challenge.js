@@ -13,8 +13,8 @@
     ```
 */
 module.exports.createCourse = function (arg1, arg2, arg3) {
-    var arg1 = 'courseTitle',
-    var arg2 = 'courseDuration',
+    var arg1 = 'courseTitle';
+    var arg2 = 'courseDuration';
     var arg3 = [courseStudents]
     return myObj = {
         Title: 'Bloc Front-end Engineering',
