@@ -18,7 +18,7 @@ module.exports.createCourse = function (arg1, arg2, arg3) {
         duration: "arg2",
         students: [arg3]
     }
-    return ("arg1", "arg2", "[arg3]");
+    return ("arg1", "arg2", [arg3]);
 };
 
  
