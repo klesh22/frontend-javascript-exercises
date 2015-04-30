@@ -1,3 +1,4 @@
+/*
 - Complete the `createCourse` function. This function should:
     - take three arguments that will define course properties
         - courseTitle (string)
@@ -10,16 +11,19 @@
     createCourse('Bloc Front-End Engineering', '4 weeks', ['Joe', 'Tim', 'Rob'])
     // should return {title: 'Bloc Front-End Engineering', duration: '4 weeks', students: ['Joe', 'Tim', 'Rob']}
     ```
-
-module.exports.createCourse = {
-    Title:'Bloc Front End Engineering' ,
-    Duration:' 4 weeks',
-    Students: ['Joe', 'Tim', 'Rob']
+*/
+module.exports.createCourse = function (arg1, arg2, arg3) {
+   var courseTitle= "arg1";
+   var courseDuration="arg2";
+   var courseStudents= [arg3];
+    return ("arg1", "arg2", "[arg3]");
 };
 
+ 
 
 
 
+/*
 - Complete the `addProperty` function. This function should:
     - Take three arguments:
         - `object`: an object to add a properties to
@@ -33,12 +37,13 @@ module.exports.createCourse = {
     addProperty({}, 'firstName', 'Jim') // should return { firstName: 'Jim' }
     addProperty({firstName: 'Rob'}, 'firstName', 'Jim') // should return {firstName: 'Rob'}
     ```
+*/    
 module.exports.addProperty = {object: "car", newProp: "color", newValue: "year"};
 
 
 
 
-
+/*
 - Complete the `formLetter` function. This function should:
     - take one argument, a letter, which has three properties `recipient`, `sender`, and `msg`
     - combine the three properties into a single string with an additional greeting and closing
@@ -50,7 +55,7 @@ module.exports.addProperty = {object: "car", newProp: "color", newValue: "year"}
     formLetter({ recipient: "James", sender: "Richard", msg: "Things are well." }) 
     // should return "Hello James,\n\nThings are well.\n\nSincerely,\nRichard"
     ```
-
+*/
 module.exports.formLetter = {
    { recipient: "Karen",
     sender: "John",
@@ -61,7 +66,7 @@ module.exports.formLetter = {
 
 
 
-
+/*
 - Complete the `canIGet` function. This function should:
     - Take two arguments:
         - `item`: represents what the user wants to buy
@@ -81,7 +86,8 @@ module.exports.formLetter = {
     canIGet('MacBook Air', 100) // returns false
     canIGet('MacBook Air', 1000) // returns true
     ```
+*/
+
+module.exports.canIGet = function(arg1,arg2) {
     
-module.exports.canIGet = function (item,money) {
-... "MacBook Air": 999, "MacBook Pro": 1299, "Mac Pro": 2499, "Apple Sticker"; 1};
-... {console.log ("true" 
+}
