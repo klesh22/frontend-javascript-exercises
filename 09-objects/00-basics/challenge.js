@@ -38,7 +38,17 @@ module.exports.createCourse = function (arg1, arg2, arg3) {
     addProperty({firstName: 'Rob'}, 'firstName', 'Jim') // should return {firstName: 'Rob'}
     ```
 */    
-module.exports.addProperty = {object: "car", newProp: "color", newValue: "year"};
+module.exports.addProperty = function (arg1, arg2, arg3) {
+    {object: "car", newProp: "color", newValue: "year"};
+    return (arg1, arg2, arg3)
+}
+
+
+
+
+
+
+
 
 
 
