@@ -13,12 +13,14 @@
     ```
 */
 module.exports.createCourse = function (arg1, arg2, arg3) {
-    var course= {
-        title: "arg1",
-        duration: "arg2",
-        students: [arg3]
+    var arg1 = 'courseTitle',
+    var arg2 = 'courseDuration',
+    var arg3 = [courseStudents]
+    return myObj = {
+        Title: 'Bloc Front-end Engineering',
+        Duration: '4 weeks',
+        Students: ['Joe', 'Tim', 'Rob'] 
     }
-    return ("arg1", "arg2", [arg3]);
 };
 
  
@@ -40,10 +42,13 @@ module.exports.createCourse = function (arg1, arg2, arg3) {
     addProperty({firstName: 'Rob'}, 'firstName', 'Jim') // should return {firstName: 'Rob'}
     ```
 */    
-module.exports.addProperty = function (arg1, arg2, arg3) {
-    {object: "car", newProp: "color", newValue: "year"};
-    return (arg1, arg2, arg3)
+module.exports.addProperty = function (object, newProp, newValue) {
+    if (object != newProp)
+    then return (newProp + newValue + object);
 }
+{if (object = NewProp)
+then return object{};
+};
 
 
 
@@ -69,10 +74,10 @@ module.exports.addProperty = function (arg1, arg2, arg3) {
     ```
 */
 module.exports.formLetter = {
-   { recipient: "Karen",
+    recipient: "Karen,",
     sender: "John",
     msg: "Do your homework!"} {
-        console.log ("Hello" + recipient,\n\n + "msg"\n\n + "Sincerely,"\n + sender)
+        console.log ("Hello" + recipient\n\n + "msg"\n\n + "Sincerely,"\n + sender)
     }
 };
 
@@ -100,6 +105,12 @@ module.exports.formLetter = {
     ```
 */
 
-module.exports.canIGet = function(arg1,arg2) {
+module.exports.canIGet = function(item,money) {
+    var item.MacBook Air = 999;
+    var item.MacBook Pro = 1299;
+    var item.Mac Pro = 2499;
+    var item.Apple Sticker = 1;
+    
+    
     
 }
