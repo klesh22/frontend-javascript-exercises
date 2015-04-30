@@ -107,10 +107,10 @@ module.exports.formLetter = {
 
 module.exports.canIGet= function (item,money) {
     var item = ["MacBook Air", "MacBook Pro", "Mac Pro", "Apple Sticker"]
-    MacBook Air: 999;
-    MacBook Pro: 1299;
-    Mac Pro: 2499;
-    Apple Sticker: 1;
+    MacBook Air: 999,
+    MacBook Pro: 1299,
+    Mac Pro: 2499,
+    Apple Sticker: 1
 }
 
 
